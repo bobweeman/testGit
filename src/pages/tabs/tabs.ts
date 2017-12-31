@@ -18,6 +18,9 @@ export class TabsPage {
   tab2:any;
   tab3:any;
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+    this.tab1="HomePage";
+    this.tab2="AboutPage";
+    this.tab3="ContactPage";
   }
 
   ionViewDidLoad() {
