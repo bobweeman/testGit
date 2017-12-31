@@ -7,12 +7,17 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>tabs</ion-title>
+    <ion-title>Our Gitapp</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
 <ion-content padding>
-
+  <ion-tabs>
+    <ion-tab tabTitle="Home" [root]="tab1" ></ion-tab>
+    <ion-tab tabTitle="About" [root]="tab2" ></ion-tab>
+    <ion-tab tabTitle="Contact" [root]="tab3" ></ion-tab>
+    
+  </ion-tabs>
 </ion-content>
